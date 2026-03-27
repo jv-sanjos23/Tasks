@@ -4,18 +4,18 @@ DESCRIÇÃO
 
 Ferramenta prática que ajudará o usuário a manter o controle de suas atividades, promovendo maior produtividade e organização pessoal por meio de uma navegação simples e objetiva.
 
----------------------------------------------------------------------------------------------------
+
 # Objetivo
 
 Este projeto tem como objetivo desenvolver uma aplicação de lista de tarefas voltada para pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), priorizando simplicidade, clareza e facilidade de uso. A proposta busca não apenas atender às necessidades básicas de organização de tarefas, mas também oferecer uma experiência que reduza distrações e ajude o usuário a manter o foco em suas atividades diárias.
 
----------------------------------------------------------------------------------------------------
+
 # Status do Projeto
 
 O projeto encontra-se em fase de planejamento e prototipação.
 A implementação do código será realizada nas próximas etapas.
 
----------------------------------------------------------------------------------------------------
+
 # Arquitetura do Sistema
 
 O sistema será desenvolvido com base na arquitetura cliente-servidor, na qual o front-end (cliente) é responsável por capturar as interações do usuário e enviar requisições HTTP ao back-end (servidor). O servidor, por sua vez, processa essas requisições, aplica as regras de negócio e realiza a comunicação com o banco de dados, retornando respostas ao cliente de forma organizada e eficiente.
@@ -30,7 +30,7 @@ Além disso, a aplicação seguirá o padrão de arquitetura em camadas, promove
 Com essa abordagem, o sistema se torna mais organizado, modular e preparado para futuras evoluções, além de facilitar o trabalho em equipe e a manutenção do projeto.
 
 
----------------------------------------------------------------------------------------------------
+
 # Tecnologias utilizadas
 
 HTML,CSS e Js(futuro)<br>
@@ -44,7 +44,7 @@ Flaticon<br>
 Draw.io<br>
 DBdesigner 4<br>
 Trello<br>
----------------------------------------------------------------------------------------------------
+
 # Comunicação Web
 
 A comunicação entre cliente e servidor será feita através do protocolo HTTP.
@@ -62,8 +62,8 @@ Status HTTP:
 
 500 → Erro no servidor
 
----------------------------------------------------------------------------------------------------
-🔄 Fluxo de Funcionamento da Aplicação
+
+# Fluxo de Funcionamento da Aplicação
 
 ➕ Adicionar tarefa
 
@@ -88,14 +88,16 @@ Status HTTP:
 -O back-end remove a tarefa do banco de dados<br>
 -O sistema atualiza a lista exibida
 
----------------------------------------------------------------------------------------------------
+
 📷 Protótipo
 
 O protótipo foi desenvolvido no Figma e inclui:
 
 - Tela inicial<br>
+- Tela de login<br>
 - Tela de cadastro<br>
 - Lista de tarefas<br>
+- Tela para adicionar tarefas<br>
 - Pomodoro<br>
 
 🔗 (https://www.figma.com/proto/BWURP4ijdagguRCXLtP8v3/Tasks?node-id=367-33&starting-point-node-id=175%3A8)
