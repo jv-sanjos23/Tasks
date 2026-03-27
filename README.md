@@ -1,14 +1,13 @@
 # Tasks
-Sistema desenvolvido com foco em pessoas com TDAH, priorizando simplicidade, organização e redução de distrações.
 
--Descrição
+DESCRIÇÃO
 
-O Tasks é uma aplicação web responsivo para dispositivos movéis que permite ao usuário gerenciar suas tarefas diárias de forma simples e eficiente.O sistema foi projetado pensando em usuários com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), oferecendo uma interface limpa e funcional.
+Ferramenta prática que ajudará o usuário a manter o controle de suas atividades, promovendo maior produtividade e organização pessoal por meio de uma navegação simples e objetiva.
 
 ---------------------------------------------------------------------------------------------------
 🎯 Objetivo
 
-Ajudar usuários a organizarem suas tarefas e manterem o foco, utilizando uma abordagem minimalista e intuitiva.
+Este projeto tem como objetivo desenvolver uma aplicação de lista de tarefas voltada para pessoas com Transtorno de Déficit de Atenção e Hiperatividade (TDAH), priorizando simplicidade, clareza e facilidade de uso. A proposta busca não apenas atender às necessidades básicas de organização de tarefas, mas também oferecer uma experiência que reduza distrações e ajude o usuário a manter o foco em suas atividades diárias.
 
 ---------------------------------------------------------------------------------------------------
 🚧 Status do Projeto
@@ -17,28 +16,28 @@ O projeto encontra-se em fase de planejamento e prototipação.
 A implementação do código será realizada nas próximas etapas.
 
 ---------------------------------------------------------------------------------------------------
-🚀 Funcionalidades Planejadas
-
-✅ Adicionar tarefas
-📋 Listar tarefas
-✔️ Marcar como concluída
-❌ Remover tarefas
-🎯 Destacar tipo de tarefas
-
----------------------------------------------------------------------------------------------------
 🏗️ Arquitetura
 
-O sistema utilizará:
-Arquitetura Cliente-Servidor
-Arquitetura em Camadas
+O sistema será desenvolvido com base na arquitetura cliente-servidor, na qual o front-end (cliente) é responsável por capturar as interações do usuário e enviar requisições HTTP ao back-end (servidor). O servidor, por sua vez, processa essas requisições, aplica as regras de negócio e realiza a comunicação com o banco de dados, retornando respostas ao cliente de forma organizada e eficiente.
+Além disso, a aplicação seguirá o padrão de arquitetura em camadas, promovendo uma melhor organização do código, facilidade de manutenção e escalabilidade. Essa divisão será estruturada da seguinte forma:
 
-Camadas:
-Front-end: HTML, CSS, JavaScript
-Back-end: PHP
-Banco de Dados: MySQL
+
+- Camada de Apresentação, desenvolvida com HTML, CSS e JavaScript, será responsável pela interface com o usuário. Nela, o usuário poderá visualizar suas tarefas, adicionar novas atividades, marcar como concluídas e excluir itens. O foco dessa camada será proporcionar uma experiência intuitiva, responsiva e visualmente limpa.
+
+- Camada de Lógica, implementada em PHP, será responsável por processar as requisições recebidas do front-end. Nessa camada serão aplicadas as regras de negócio, como validação de dados, controle das tarefas (criar, listar, atualizar e excluir) e tratamento de possíveis erros, garantindo o correto funcionamento da aplicação.
+
+- Camada de Dados, utilizando MySQL, será encarregada do armazenamento e gerenciamento das informações. Ela manterá os registros das tarefas, incluindo seus estados (concluída ou pendente), permitindo consultas rápidas e seguras. Essa separação garante maior integridade dos dados e facilita futuras modificações na estrutura do banco.
+Com essa abordagem, o sistema se torna mais organizado, modular e preparado para futuras evoluções, além de facilitar o trabalho em equipe e a manutenção do projeto.
+
 
 ---------------------------------------------------------------------------------------------------
 🛠️ Tecnologias Utilizadas
+
+HTML,CSS e Js(futuro)
+
+PHP(futuro)
+
+SQL(futuro)
 
 Figma
 
@@ -54,6 +53,7 @@ Draw.io
 
 DBdesigner 4
 
+Trello
 ---------------------------------------------------------------------------------------------------
 🌐 Comunicação Web
 
