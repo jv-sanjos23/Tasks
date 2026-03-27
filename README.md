@@ -89,15 +89,3 @@ Status HTTP:
 -O sistema atualiza a lista exibida
 
 
-# Protótipo
-
-O protótipo foi desenvolvido no Figma e inclui:
-
-- Tela inicial<br>
-- Tela de login<br>
-- Tela de cadastro<br>
-- Lista de tarefas<br>
-- Tela para adicionar tarefas<br>
-- Pomodoro<br>
-
-🔗 (https://www.figma.com/proto/BWURP4ijdagguRCXLtP8v3/Tasks?node-id=367-33&starting-point-node-id=175%3A8)
