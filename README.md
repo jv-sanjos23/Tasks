@@ -65,7 +65,7 @@ Status HTTP:
 
 # Fluxo de Funcionamento da Aplicação
 
-➕ Adicionar tarefa
+- Adicionar tarefa
 
 -O usuário insere uma nova tarefa na interface<br>
 -O front-end envia uma requisição HTTP do tipo POST<br>
@@ -74,14 +74,14 @@ Status HTTP:
 -O servidor retorna uma resposta de sucesso (200 OK)<br>
 -A tarefa é exibida na lista para o usuário
 
-📋 Listar tarefas
+- Listar tarefas
 
 -O sistema envia uma requisição GET ao servidor<br>
 -O back-end consulta o banco de dados<br>
 -As tarefas são retornadas ao front-end<br>
 -O usuário visualiza a lista de tarefas
 
-❌ Remover tarefa
+- Remover tarefa
 
 -O usuário clica na opção de remover<br>
 -Uma requisição é enviada ao servidor<br>
@@ -89,7 +89,7 @@ Status HTTP:
 -O sistema atualiza a lista exibida
 
 
-📷 Protótipo
+# Protótipo
 
 O protótipo foi desenvolvido no Figma e inclui:
 
